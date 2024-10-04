@@ -17,15 +17,82 @@ a {
   text-decoration: none;
 }
 
+h1 {
+    font: var(--fraunces-heading);
+    text-transform: uppercase;
+}
+
+h2 {
+    font: var(--fraunces-heading);
+}
+
+h3 {
+    font: var(--fraunces-subheading)
+}
+
+p {
+    font: var(--barlow-body);
+}
+
 img {
     width: 100%; /* Full-width image for mobile */
     height: auto;
   }
 
+/* Header styles  */
+
+header {
+    position: relative;
+    max-height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-image {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+    z-index: 0;
+}
+
+.header-content {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+    color: white; 
+    text-align: center;
+}
+
+header h1 {
+    letter-spacing: 8px;
+}
+
 /* Footer styles */
 
 .footer-logo {
+    color: var(--yellow);
+    height: 2rem;
+    width: auto;
+}
+
+.footer-menu {
+    font: var(--barlow-header);
     color: var(--green);
+}
+
+.social-icons {
+    max-height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icons li {
+    padding: 1rem;
 }
 
 .attribution { 

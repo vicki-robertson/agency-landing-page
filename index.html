@@ -18,14 +18,20 @@
 
 <body>
   <header>
-    <img src="./images/logo.svg" class="logo">
-    <ul>
-      <li>About</li>
-      <li>Services</li>
-      <li>Projects</li>
-      <li>Contact</li>
-    </ul>
-    <h1>We are creatives</h1>
+    <picture class="header-image">
+      <source srcset="./images/desktop/image-header.jpg" media="(min-width: 768px)">
+      <img src="./images/mobile/image-header.jpg" alt="egg on a yellow background">
+    </picture>
+    <div class="header-content">
+      <img src="./images/logo.svg" alt="Sunnyside logo" class="logo">
+      <ul>
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+      <h1>We are creatives</h1>
+    </div>
   </header>
 
   <main>
@@ -104,12 +110,11 @@
   </main>
 
   <footer>
-    <img src="./images/logo.svg" alt="Sunnyside logo" class="footer-logo">
+    <img src="./images/logo-footer.svg" alt="Sunnyside logo" class="footer-logo">
     <ul class="footer-menu">
       <li>About</li>
       <li>Services</li>
       <li>Projects</li>
-      <li>Contact</li>
     </ul>
     <ul class="social-icons">
       <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="images/icon-facebook.svg"
