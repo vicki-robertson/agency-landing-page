@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+:root {
+  --green: #24554a; 
+  --darkest-blue: #052c3b;
+  --dark-blue: #24303e;
+  --white: #FFFFFF;
+  --grey: #808387;
+  --light-yellow:#fef2ba;
+  --yellow: #fad400;
+  --light-pink:#ffdbd4;
+  --pink: #fe7766;
+  --light-grey:#a7aaad;
+  --slate:#5b636d;
+  --footer-background:#90d4c6;
+  --footer-text: #458d7e;
+
+  --font-family-fraunces: 'Fraunces', sans-serif;
+  --font-family-barlow: 'Barlow', sans-serif;
+
+  --barlow-hamburger: 600 20px var(--font-family-barlow);
+  --barlow-header: 600 18px var(--font-family-barlow);
+  --barlow-body: 600 16px var(--font-family-barlow);
+  --barlow-detail: 600 14px var(--font-family-barlow);
+
+  --fraunces-title: 900 56px var(--font-family-fraunces);
+  --fraunces-heading: 900 40px var(--font-family-fraunces);
+  --fraunces-heading-mobile: 900 32px var(--font-family-fraunces);
+  --fraunces-subheading: 900 28px var(--font-family-fraunces);
+  --fraunces-section: 900 20px var(--font-family-fraunces);
+  --fraunces-subsection: 900 18px var(--font-family-fraunces);
+  --fraunces-highlight: 700 16px var(--font-family-fraunces);
+  --fraunces-header: 700 12px var(--font-family-fraunces);
+  }
+
